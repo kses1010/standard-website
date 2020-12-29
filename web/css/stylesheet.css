@@ -5,3 +5,13 @@
 #header {height: 325px; background-color: #111;}
 #contents {height: 800px; background-color: #222;}
 #footer {height: 200px; background-color: #333;}
+
+
+/* 컨텐츠 레이아웃 */
+#cont_nav {height: 200px; background-color: #333;}
+#cont_title {height: 200px; background-color: #444;}
+#cont_banner {height: 200px; background-color: #555;}
+#cont_content {height: 200px; background-color: #666;}
+
+/* 컨테이너 */
+.container {width: 990px; margin: 0 auto; height: inherit; background-color: rgba(255, 255, 255, 0.3);}
