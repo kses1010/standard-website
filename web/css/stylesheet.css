@@ -1,0 +1,7 @@
+@charset "utf-8";
+
+/* 레이아웃 */
+#wrap {}
+#header {height: 325px; background-color: #111;}
+#contents {height: 800px; background-color: #222;}
+#footer {height: 200px; background-color: #333;}
