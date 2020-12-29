@@ -9,7 +9,7 @@ background: #333; line-height: 30px; width: 140px; text-align: center;}
 
 /* 레이아웃 */
 #wrap {}
-#header {height: 325px; background-color: #111;}
+#header {height: 325px; background: url(../img/header_bg.jpg) center top repeat-x;}
 #contents {height: 800px; background-color: #222;}
 #footer {height: 200px; background-color: #333;}
 
@@ -22,3 +22,11 @@ background: #333; line-height: 30px; width: 140px; text-align: center;}
 
 /* 컨테이너 */
 .container {width: 990px; margin: 0 auto; height: inherit; background-color: rgba(255, 255, 255, 0.3);}
+
+/* 헤더 */
+.header {}
+.header .header-menu {text-align: right;}
+.header .header-menu a {color: #fff; padding: 10px 0px 10px 13px; display: inline-block;}
+.header .header-menu a:hover {color: #666;}
+.header .header-title {}
+.header .header-icon {}
