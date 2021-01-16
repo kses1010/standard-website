@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Web</title>
+    <style>
+      .box-container {
+        display: flex;
+      }
+      .box {
+        width: 100px;
+        height: 100px;
+        border: 2px solid black;
+        background: rgba(255, 255, 0, 0.7);
+      }
+      .box:hover {
+        /* transform: scale(2) rotate(15deg); */
+        /* transform: skewY(-30deg); */
+        /* transform: translate(0, 10px); */
+        /* transform: scale(1.5); */
+        /* transform-origin: bottom; */
+        transform: rotate(30deg);
+        transform-origin: 50% 0%;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CSS Transform</h1>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla ducimus
+      aliquam corporis exercitationem labore quia sed esse, accusantium repellat
+      incidunt. Cumque ipsa culpa voluptatum recusandae veniam eveniet impedit
+      odio laboriosam.
+    </p>
+    <div class="box-container">
+      <div class="box">A</div>
+      <div class="box">B</div>
+      <div class="box">C</div>
+      <div class="box">D</div>
+      <div class="box">E</div>
+    </div>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, quae
+      quasi corrupti quod quos voluptatibus dolorum, dolorem recusandae iure
+      ipsum minima omnis expedita soluta! Aperiam modi ut incidunt porro
+      excepturi?
+    </p>
+  </body>
+</html>
